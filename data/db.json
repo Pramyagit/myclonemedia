@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "HTML1",
+      "post": "first",
+      "body": "html project"
+    },
+    {
+      "id": 2,
+      "title": "CSS",
+      "post": "second",
+      "body": "css project"
+    },
+    {
+      "id": 3,
+      "title": "JAVASCRIPT",
+      "post": "third",
+      "body": "javascript project"
+    },
+    {
+      "id": 5,
+      "title": "REACTJS ",
+      "post": "four",
+      "body": "ReactProject"
+    },
+    {
+      "id": 6,
+      "title": "web-developer",
+      "post": "five",
+      "body": "frontend"
+    },
+    {
+      "id": 7,
+      "title": "Java 2023",
+      "post": "six",
+      "body": "javaProject"
+    }
+  ]
+}

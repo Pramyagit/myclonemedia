@@ -1,0 +1,339 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 19px;
+}
+body{  background-color: rgb(183, 208, 253);
+}
+
+.App{
+  /* background-color:white ; */
+  color:rgb(20, 20, 20);
+  text-align: center;
+  max-width:100%;
+}
+header{
+  height:40px;
+  font-size:15px;
+ margin-top:0;
+  width:100%;
+  display:flex;
+  padding:.2rem;
+  background-color:rgb(56, 116, 246);
+  color:white;
+  text-align: center;
+  justify-content: space-between;
+}
+footer{
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  padding:.2rem;
+  background-color:rgb(56, 116, 246);
+  color:white;
+  text-align: center;
+}
+
+.about{
+  font-size:25px;
+  font-weight:500;
+  
+}
+.nav{
+  width:100%vw;
+  height:40px;
+  background-color: rgb(138, 164, 247);
+display:flex;
+justify-content: space-evenly;
+}
+.Listnav{
+  display:flex;
+  
+}
+.navList{
+  display:flex;
+ 
+  font-size:20px;
+  gap:20px;
+}
+.navList li{
+  border-radius:10px;
+  /* height:35px; */
+  width:100%;
+  margin:2px;
+  padding:5px;
+  justify-content: space-between;
+  align-items: center;
+  border:1px solid transparent;
+}
+.navList li a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.navList li a:hover{
+  text-decoration: underline;
+ 
+}
+.navList li:hover{
+  background-color: rgb(183, 208, 253);
+}
+.navList .list-item{
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid blue;
+}
+.active{
+  background-color: #05b2f6;
+  
+}
+.active a{
+  color:white
+}
+form{
+  width:100%;
+}
+form label{
+  font-size:18px;
+  /* left:40%; */
+}
+.searchForm input[type="text"]{
+  width:200px;
+  height:30px;
+  margin:5px;
+  margin-top:6px;
+  border-radius: 10px;
+}
+
+.formNew{
+  width:100%;
+  justify-content:center;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+}
+.newForm{
+  background-color: rgba(0, 187, 255, 0.203);
+  width: 400px;
+  height:400px;
+  font-weight:bolder;
+  /* justify-content:center; */
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+  box-shadow: inset 5px 5px 5px rgba(88, 108, 115, 0.203);
+}
+.newForm input[type="text"]{
+  width:300px;
+  height:30px;
+}
+.newForm textarea{
+  width:300px;
+  height:200px;
+}
+ button{
+  margin:10px;
+  width:200px;
+  height:30px;
+}
+.newContact{
+  background-color: rgba(0, 187, 255, 0.203);
+  width: 400px;
+  height:400px;
+  font-weight:bolder;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+
+  box-shadow: inset 5px 5px 5px rgba(88, 108, 115, 0.203);
+}
+.newContact input[type="text"],input[type="date"],input[type="email"]{
+  width:300px;
+  height:30px;
+}
+.newContact  textarea{
+  width:300px;
+  height:200px;
+}
+
+/* admin */
+.formAdmin{
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  flex-direction: column;
+}
+.formAdmin input{
+  width:200px;
+  height:30px;
+}
+.formAdmin button{
+  width:150px;
+  background-color: rgb(4, 152, 238);
+  border: none;
+}
+#edit{
+  background-color: #17da05;
+  border:1px solid white;
+  width:150px;
+  box-shadow: inset 2px 2px 2px rgba(0, 0,0, 0.2);
+font-size: 20px;
+color:white;
+border-radius:10px;
+
+}
+#del{
+  background-color: #da3705;
+  border:1px solid white;
+  width:150px;
+  box-shadow: inset 2px 2px 2px rgba(0, 0,0, 0.2);
+font-size: 20px;
+color:white;
+border-radius:10px;
+}
+
+.Listnav{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0.5rem 0rem;
+  background-color: #fff;
+  color: black;
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+}
+.navList{
+  display:flex;
+  padding: 0;;
+}
+.navList li{
+  margin:0 .2rem;
+}
+.navList li a{
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+.menu{
+  border: 0;
+  height: 40px;
+  width: 40px;
+  padding: 0.5rem;
+  border-radius: 20%;
+  background-color: #1b7ef0ea;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  position: absolute;
+  top: 50%;
+  /* right: 25px; */
+  transform: translateY(-50%);
+  display: none;
+  color:white;
+}
+.menu:hover{
+  background-color: #d9ddf1;
+  color:blue;
+}
+
+/* homeload */
+.homeLoad{
+  width:100%;
+  height:100vh;
+}
+.load{
+  font-size: 30px;
+ font-weight: bold;
+  color:#1105f6;
+position: absolute;
+top:50%;
+left:50%;
+}
+.loader {
+  border: 10px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 10px solid blue;
+  /* border-bottom: 10px solid blue; */
+  width: 80px;
+  height: 80px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.error{
+  color:red;
+  font-size: 30px;;
+}
+
+/* responsive */
+@media screen and (max-width:750px) {
+  
+  .newForm,.newContact{
+    width:300px;
+  }
+ nav .menu{
+    display:block;
+    position: absolute;
+    left:0px;
+    top:59px;
+    color:white;
+    z-index: 1000000;
+  }
+  
+  .navList{
+    display:flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 200px;
+    color:white;
+    font-size: 20px;padding: 10px;
+    background-color: rgba(214, 213, 213, 0.2);
+    margin:0;
+    position:relative;
+    text-align: left;
+    margin-top:40px;
+    margin-left:0px;
+    top:260px;
+    left:0;
+    transition: 2s;
+  }
+  .navList:hover {
+    background-color: black;
+  }
+  .navList:hover a{
+    color:white;
+  }
+.hide{
+  left:-100%;
+  transition: 2s;
+}
+.searchForm label{
+  position:absolute;
+  left:-99999px;
+}
+  
+}
+
+@media screen and (min-width:450px) {
+.menu{
+  display:none;
+}
+.searchForm label{
+  position:absolute;
+  left:-99999px;
+}
+}
