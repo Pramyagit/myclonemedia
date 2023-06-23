@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mediaclone/static/css/main.debed7f9.css",
+    "main.js": "/mediaclone/static/js/main.42cbd161.js",
+    "static/js/787.769f9337.chunk.js": "/mediaclone/static/js/787.769f9337.chunk.js",
+    "index.html": "/mediaclone/index.html",
+    "main.debed7f9.css.map": "/mediaclone/static/css/main.debed7f9.css.map",
+    "main.42cbd161.js.map": "/mediaclone/static/js/main.42cbd161.js.map",
+    "787.769f9337.chunk.js.map": "/mediaclone/static/js/787.769f9337.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.debed7f9.css",
+    "static/js/main.42cbd161.js"
+  ]
+}
